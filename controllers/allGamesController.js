@@ -1,16 +1,82 @@
 const knex = require("knex")(require("../knexfile"));
 
 // controller to GET All Xbox Games
-const getAllXboxGames = (req, res) => {};
+
+async function getAllXboxGames(req, res) {
+  try {
+    const response = await knex("allgames").where({
+      platform: "Xbox One",
+    });
+    console.log(response);
+
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(400).json({ message: "Cannot get all xbox games" });
+  }
+}
 
 // controller to GET Single Xbox Game by Id
-const singleXboxGame = (req, res) => {};
+
+const singleXboxGame = async (req, res) => {
+  try {
+    const singleXboxGame = await knex("allgames").where({
+      platform: "Xbox One",
+      id: req.params.id,
+    });
+
+    if (singleXboxGame.length === 0) {
+      return res.status(404).json({
+        message: `Xbox game with id ${req.params.id} does not exist`,
+      });
+    }
+
+    const singleXboxGameData = singleXboxGame[0];
+
+    res.status(200).json(singleXboxGameData);
+  } catch (error) {
+    res
+      .status(500)
+      .json({ message: `Cannot get xbox game with id ${req.params.id}` });
+  }
+};
 
 // controller to Get All PS Games
-const getAllPsGames = (req, res) => {};
+
+const getAllPsGames = async (req, res) => {
+  try {
+    const response = await knex("allgames").where({ platform: "PS5" });
+    console.log(response);
+
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(400).json({ message: "Can't get all PS5 games" });
+  }
+};
 
 // controller to Get Single PS Game by Id
-const getSinglePsGame = (req, res) => {};
+
+const getSinglePsGame = async (req, res) => {
+  try {
+    const singlePsGame = await knex("allgames").where({
+      platform: "PS5",
+      id: req.params.id,
+    });
+
+    if (singlePsGame.length === 0) {
+      return res.status(404).json({
+        message: `Playstation game with id ${req.params.id} does not exist`,
+      });
+    }
+
+    const getSinglePsGameData = singlePsGame[0];
+
+    res.status(200).json(getSinglePsGameData);
+  } catch (error) {
+    res.status(500).json({
+      message: `Cannot get playstation game with id ${req.params.id}`,
+    });
+  }
+};
 
 module.exports = {
   getAllXboxGames,

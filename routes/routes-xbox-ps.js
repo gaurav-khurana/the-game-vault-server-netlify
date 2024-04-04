@@ -8,6 +8,7 @@ const allGamesController = require("../controllers/allGamesController");
 // route to get all xbox games
 
 router.route("/xbox").get(allGamesController.getAllXboxGames);
+
 // router.route("/xbox").get(xboxController.getAllXboxGames);
 
 // route to get single xbox game by id
