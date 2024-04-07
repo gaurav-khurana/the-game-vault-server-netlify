@@ -15,11 +15,16 @@ app.use(express.json());
 
 // middleware for auth
 
+// serve static files from server
+app.use("/static-files", express.static("public"));
+
 // routes - xbox
+
 // const xboxRoutes = require("./routes/routes-xbox");
 // app.use("/", xboxRoutes);
 
 // routes - PS
+
 // const psRoutes = require("./routes/routes-PS");
 // app.use("/", psRoutes);
 

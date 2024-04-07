@@ -11,6 +11,16 @@ module.exports = [
     platform: "Xbox One",
     genre: "Action-Adventure",
     developer: "Ubisoft Montreal",
+    image1:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla1.webp",
+    image2:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla5.jpeg",
   },
   {
     id: 2,
@@ -24,6 +34,11 @@ module.exports = [
     platform: "Xbox One",
     genre: "Racing",
     developer: "Codemasters",
+    image1: "http://localhost:8080/static-files/images/F123/F11.jpeg",
+    image2: "http://localhost:8080/static-files/images/F123/F12.jpeg",
+    image3: "http://localhost:8080/static-files/images/F123/F13.jpeg",
+    image4: "http://localhost:8080/static-files/images/F123/F14.jpeg",
+    image5: "http://localhost:8080/static-files/images/F123/F15.jpeg",
   },
   {
     id: 3,
@@ -37,6 +52,11 @@ module.exports = [
     platform: "Xbox One",
     genre: "Action-Adventure",
     developer: "Ubisoft Montreal",
+    image1: "http://localhost:8080/static-files/images/FarCry5/FarCry1.jpeg",
+    image2: "http://localhost:8080/static-files/images/FarCry5/FarCry2.jpg",
+    image3: "http://localhost:8080/static-files/images/FarCry5/FarCry3.jpg",
+    image4: "http://localhost:8080/static-files/images/FarCry5/FarCry4.jpeg",
+    image5: "http://localhost:8080/static-files/images/FarCry5/FarCry5.jpeg",
   },
   {
     id: 4,
@@ -50,6 +70,11 @@ module.exports = [
     platform: "Xbox One",
     genre: "Sports",
     developer: "Electronic Arts",
+    image1: "http://localhost:8080/static-files/images/Fifa24/Fifa1.jpeg",
+    image2: "http://localhost:8080/static-files/images/Fifa24/Fifa2.jpeg",
+    image3: "http://localhost:8080/static-files/images/Fifa24/Fifa3.jpeg",
+    image4: "http://localhost:8080/static-files/images/Fifa24/Fifa4.jpeg",
+    image5: "http://localhost:8080/static-files/images/Fifa24/Fifa5.jpeg",
   },
   {
     id: 5,
@@ -63,6 +88,16 @@ module.exports = [
     platform: "Xbox One",
     genre: "Tactical Shooter",
     developer: "Ubisoft Paris",
+    image1:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint1.webp",
+    image2:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint5.jpeg",
   },
   {
     id: 6,
@@ -76,6 +111,11 @@ module.exports = [
     platform: "Xbox One",
     genre: "Action-Adventure",
     developer: "Rockstar North",
+    image1: "http://localhost:8080/static-files/images/GTAV/GTA1.jpeg",
+    image2: "http://localhost:8080/static-files/images/GTAV/GTA2.jpeg",
+    image3: "http://localhost:8080/static-files/images/GTAV/GTA3.jpeg",
+    image4: "http://localhost:8080/static-files/images/GTAV/GTA4.jpeg",
+    image5: "http://localhost:8080/static-files/images/GTAV/GTA5.jpeg",
   },
   {
     id: 7,
@@ -89,6 +129,16 @@ module.exports = [
     platform: "Xbox One",
     genre: "Action-RPG",
     developer: "Portkey Games",
+    image1:
+      "http://localhost:8080/static-files/images/HogwartsLegacy/Hogwarts1.webp",
+    image2:
+      "http://localhost:8080/static-files/images/HogwartsLegacy/Hogwarts2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/HogwartsLegacy/Hogwarts3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/HogwartsLegacy/Hogwarts4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/HogwartsLegacy/Hogwarts5.jpeg",
   },
   {
     id: 8,
@@ -102,6 +152,11 @@ module.exports = [
     platform: "Xbox One",
     genre: "Sports",
     developer: "Visual Concepts",
+    image1: "http://localhost:8080/static-files/images/NBA2k24/nba1.jpeg",
+    image2: "http://localhost:8080/static-files/images/NBA2k24/nba2.jpeg",
+    image3: "http://localhost:8080/static-files/images/NBA2k24/nba3.jpeg",
+    image4: "http://localhost:8080/static-files/images/NBA2k24/nba4.jpeg",
+    image5: "http://localhost:8080/static-files/images/NBA2k24/nba5.jpeg",
   },
   {
     id: 9,
@@ -115,6 +170,16 @@ module.exports = [
     platform: "Xbox One",
     genre: "Action",
     developer: "Rockstar Games",
+    image1:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption1.jpeg",
+    image2:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption5.jpeg",
   },
   {
     id: 10,
@@ -128,6 +193,16 @@ module.exports = [
     platform: "Xbox One",
     genre: "Action-Adventure",
     developer: "Ubisoft",
+    image1:
+      "http://localhost:8080/static-files/images/WatchDogs3/watchdogs1.jpeg",
+    image2:
+      "http://localhost:8080/static-files/images/WatchDogs3/watchdogs2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/WatchDogs3/watchdogs3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/WatchDogs3/watchdogs4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/WatchDogs3/watchdogs5.webp",
   },
 
   {
@@ -142,6 +217,16 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Ubisoft Montreal",
+    image1:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla1.webp",
+    image2:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla5.jpeg",
   },
   {
     id: 12,
@@ -155,6 +240,11 @@ module.exports = [
     platform: "PS5",
     genre: "Sports",
     developer: "EA Sports",
+    image1: "http://localhost:8080/static-files/images/Fifa24/Fifa1.jpeg",
+    image2: "http://localhost:8080/static-files/images/Fifa24/Fifa2.jpeg",
+    image3: "http://localhost:8080/static-files/images/Fifa24/Fifa3.jpeg",
+    image4: "http://localhost:8080/static-files/images/Fifa24/Fifa4.jpeg",
+    image5: "http://localhost:8080/static-files/images/Fifa24/Fifa5.jpeg",
   },
   {
     id: 13,
@@ -168,6 +258,16 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Naughty Dog",
+    image1:
+      "http://localhost:8080/static-files/images/LastofUs2/LastofUs1.jpeg",
+    image2:
+      "http://localhost:8080/static-files/images/LastofUs2/LastofUs2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/LastofUs2/LastofUs3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/LastofUs2/LastofUs4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/LastofUs2/LastofUs5.jpeg",
   },
   {
     id: 14,
@@ -181,6 +281,16 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Santa Monica Studio",
+    image1:
+      "http://localhost:8080/static-files/images/GodofWarRagnarok/GodofWar1.webp",
+    image2:
+      "http://localhost:8080/static-files/images/GodofWarRagnarok/GodofWar2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/GodofWarRagnarok/GodofWar3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/GodofWarRagnarok/GodofWar4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/GodofWarRagnarok/GodofWar5.jpeg",
   },
   {
     id: 15,
@@ -194,6 +304,16 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Sucker Punch Productions",
+    image1:
+      "http://localhost:8080/static-files/images/GhostofTsushima/GhostofTsushima1.jpeg",
+    image2:
+      "http://localhost:8080/static-files/images/GhostofTsushima/GhostofTsushima2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/GhostofTsushima/GhostofTsushima3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/GhostofTsushima/GhostofTsushima4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/GhostofTsushima/GhostofTsushima5.jpeg",
   },
   {
     id: 16,
@@ -207,6 +327,16 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Naughty Dog",
+    image1:
+      "http://localhost:8080/static-files/images/Uncharted4/Uncharted1.webp",
+    image2:
+      "http://localhost:8080/static-files/images/Uncharted4/Uncharted2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/Uncharted4/Uncharted3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/Uncharted4/Uncharted4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/Uncharted4/Uncharted5.jpeg",
   },
   {
     id: 17,
@@ -220,6 +350,11 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Rockstar North",
+    image1: "http://localhost:8080/static-files/images/GTAV/GTA1.jpeg",
+    image2: "http://localhost:8080/static-files/images/GTAV/GTA2.jpeg",
+    image3: "http://localhost:8080/static-files/images/GTAV/GTA3.jpeg",
+    image4: "http://localhost:8080/static-files/images/GTAV/GTA4.jpeg",
+    image5: "http://localhost:8080/static-files/images/GTAV/GTA5.jpeg",
   },
   {
     id: 18,
@@ -233,6 +368,16 @@ module.exports = [
     platform: "PS5",
     genre: "Tactical Shooter",
     developer: "Ubisoft Paris",
+    image1:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint1.webp",
+    image2:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/Ghostreconbreakpoint/Ghostreconbreakpoint5.jpeg",
   },
   {
     id: 19,
@@ -246,6 +391,16 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Rockstar Games",
+    image1:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption1.jpeg",
+    image2:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/RedDeadRedemption2/RedDeadRedemption5.jpeg",
   },
   {
     id: 20,
@@ -259,5 +414,15 @@ module.exports = [
     platform: "PS5",
     genre: "Action-Adventure",
     developer: "Insomniac Games",
+    image1:
+      "http://localhost:8080/static-files/images/SpidermanMilesMorales/spiderman1.png",
+    image2:
+      "http://localhost:8080/static-files/images/SpidermanMilesMorales/spiderman2.jpeg",
+    image3:
+      "http://localhost:8080/static-files/images/SpidermanMilesMorales/spiderman3.jpeg",
+    image4:
+      "http://localhost:8080/static-files/images/SpidermanMilesMorales/spiderman4.jpeg",
+    image5:
+      "http://localhost:8080/static-files/images/SpidermanMilesMorales/spiderman5.jpeg",
   },
 ];
