@@ -14,6 +14,9 @@ exports.up = function (knex) {
     table.string("platform").notNullable();
     table.string("genre").notNullable();
     table.string("developer").notNullable();
+    table.string("players").notNullable();
+    table.string("online_play").notNullable();
+    table.string("ratings").notNullable();
     table.string("image1", 100).notNullable();
     table.string("image2", 100).notNullable();
     table.string("image3", 100).notNullable();
