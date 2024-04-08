@@ -5,7 +5,7 @@ const knex = require("knex")(require("../knexfile"));
 async function getAllXboxGames(req, res) {
   try {
     const response = await knex("allgames").where({
-      platform: "Xbox One Xbox Series X | S",
+      platform: "Xbox One  Xbox Series X | S",
     });
     console.log(response);
 
@@ -20,7 +20,7 @@ async function getAllXboxGames(req, res) {
 const singleXboxGame = async (req, res) => {
   try {
     const singleXboxGame = await knex("allgames").where({
-      platform: "Xbox One Xbox Series X | S",
+      platform: "Xbox One  Xbox Series X | S",
       id: req.params.id,
     });
 
