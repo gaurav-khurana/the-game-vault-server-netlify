@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 module.exports = {
-  client: "mysql2",
+  client: "mysql",
   connection: {
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
