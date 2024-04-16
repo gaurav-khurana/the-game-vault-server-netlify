@@ -32,5 +32,5 @@ router.use("/", (req, res) => {
 // });
 
 // app.use("/.netlify/functions/api", router);
-app.use("/", router);
+app.use("/", xboxPsRoutes);
 module.exports.handler = serverless(app);
