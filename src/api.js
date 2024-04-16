@@ -31,5 +31,5 @@ app.listen(PORT, () => {
   console.log("Listening to server on ", PORT);
 });
 
-app.use("/.netlify/functions/api", router);
+app.use("/.netlify/functions/api", xboxPsRoutes);
 module.exports.handler = serverless(app);
