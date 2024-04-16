@@ -17,19 +17,19 @@ app.use(express.json());
 // middleware for generating token
 
 // serve static files from server
-app.use("/static-files", express.static("public"));
+router.use("/static-files", express.static("public"));
 
 // routes - xbox & PS games
 const xboxPsRoutes = require("../routes/routes-xbox-ps");
-app.use("/games", xboxPsRoutes);
-app.use("/", (req, res) => {
+router.use("/games", xboxPsRoutes);
+router.use("/", (req, res) => {
   res.send("Server Deployed successfully");
 });
 
 // listen to Port
-app.listen(PORT, () => {
-  console.log("Listening to server on ", PORT);
-});
+// app.listen(PORT, () => {
+//   console.log("Listening to server on ", PORT);
+// });
 
-app.use("/.netlify/functions/api", xboxPsRoutes);
+app.use("/.netlify/functions/api", router);
 module.exports.handler = serverless(app);
